@@ -65,7 +65,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier, backgroundColor: Color
                     modifier = modifier
                         .padding(all = 24.dp),
                     fontWeight = FontWeight.Bold,
-                    fontSize = 40.sp,
+                    fontSize = 35.sp,
                 )
             }
             Row (modifier = modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.Center) {
